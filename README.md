@@ -43,14 +43,17 @@ A responsive web application for viewing live cricket match scorecards with real
 
 ## How to Use
 
-1. Open `index.html` in a web browser
-2. View available matches on the Dashboard
-3. Click on a match to view detailed scorecard
-4. Switch between tabs to view different information:
+1. Download or clone this repository to your machine.
+2. Open `index.html` directly in any modern web browser (double-click the file or drag it into a tab).
+3. View available matches on the Dashboard.
+4. Click on a match to view the detailed scorecard.
+5. Switch between tabs to view different information:
    - **Dashboard:** All matches overview
    - **Scorecard:** Detailed match information
    - **Statistics:** Performance metrics
    - **Commentary:** Ball-by-ball play description
+
+> ℹ️ All assets are linked with relative paths, so no build tools or local server are required to run the app.
 
 ## Project Structure
 
