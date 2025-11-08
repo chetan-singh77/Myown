@@ -41,29 +41,57 @@ A responsive web application for viewing live cricket match scorecards with real
 - **No External Dependencies:** Pure frontend implementation
 - **Real-time Updates:** Simulated live data with automatic refresh
 
+## 🌐 Live Demo
+
+The app is deployed and accessible at:
+
+**🔗 https://chetan-singh77.github.io/Myown/**
+
+Access from any device - phone, tablet, or desktop! No installation required.
+
 ## How to Use
 
-1. Download or clone this repository to your machine.
-2. Open `index.html` directly in any modern web browser (double-click the file or drag it into a tab).
-3. View available matches on the Dashboard.
-4. Click on a match to view the detailed scorecard.
+### Online (Recommended)
+1. Visit **https://chetan-singh77.github.io/Myown/**
+2. The app loads instantly in your browser
+3. View available matches on the Dashboard
+4. Click on a match to view the detailed scorecard
 5. Switch between tabs to view different information:
    - **Dashboard:** All matches overview
    - **Scorecard:** Detailed match information
    - **Statistics:** Performance metrics
    - **Commentary:** Ball-by-ball play description
 
+### Local Development
+1. Download or clone this repository to your machine
+2. Open `index.html` directly in any modern web browser (double-click the file or drag it into a tab)
+3. Follow the same steps as above
+
 > ℹ️ All assets are linked with relative paths, so no build tools or local server are required to run the app.
 
 ## Project Structure
 
 ```
-├── index.html       # Main HTML file with structure
-├── styles.css       # All styling and responsive design
-├── app.js          # JavaScript application logic
-├── README.md       # This file
-└── .gitignore      # Git ignore file
+├── .github/
+│   └── workflows/
+│       └── deploy-pages.yml   # GitHub Pages deployment workflow
+├── index.html                 # Main HTML file with structure
+├── styles.css                 # All styling and responsive design
+├── app.js                     # JavaScript application logic
+├── README.md                  # This file
+├── DEPLOYMENT.md              # Deployment guide
+└── .gitignore                 # Git ignore file
 ```
+
+## 🚀 Deployment
+
+The app is automatically deployed to GitHub Pages using GitHub Actions.
+
+- **Live URL:** https://chetan-singh77.github.io/Myown/
+- **Auto-deploy:** Pushes to `main` branch trigger automatic deployment
+- **Update time:** Changes appear live in 2-3 minutes
+
+For detailed deployment instructions, see [DEPLOYMENT.md](DEPLOYMENT.md)
 
 ## Match Information Displayed
 
