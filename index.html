@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Live Scorecard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🏏 Cricket Live Scorecard</h1>
+            <p class="subtitle">Real-time match updates</p>
+        </header>
+
+        <nav class="nav-tabs">
+            <button class="nav-btn active" data-tab="dashboard">Dashboard</button>
+            <button class="nav-btn" data-tab="scorecard">Scorecard</button>
+            <button class="nav-btn" data-tab="statistics">Statistics</button>
+            <button class="nav-btn" data-tab="commentary">Commentary</button>
+        </nav>
+
+        <!-- Dashboard Tab -->
+        <section id="dashboard" class="tab-content active">
+            <div class="matches-container">
+                <h2>Live Matches</h2>
+                <div id="matches-list" class="matches-list">
+                    <!-- Matches will be populated here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Scorecard Tab -->
+        <section id="scorecard" class="tab-content">
+            <div class="scorecard-container">
+                <div id="match-selected" class="match-selected">
+                    <p>Select a match to view detailed scorecard</p>
+                </div>
+                <div id="scorecard-content" class="scorecard-content" style="display:none;">
+                    <!-- Scorecard content will be populated here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics Tab -->
+        <section id="statistics" class="tab-content">
+            <div class="statistics-container">
+                <div id="statistics-selected" class="statistics-selected">
+                    <p>Select a match to view statistics</p>
+                </div>
+                <div id="statistics-content" class="statistics-content" style="display:none;">
+                    <!-- Statistics content will be populated here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Commentary Tab -->
+        <section id="commentary" class="tab-content">
+            <div class="commentary-container">
+                <div id="commentary-selected" class="commentary-selected">
+                    <p>Select a match to view ball-by-ball commentary</p>
+                </div>
+                <div id="commentary-content" class="commentary-content" style="display:none;">
+                    <!-- Commentary content will be populated here -->
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
